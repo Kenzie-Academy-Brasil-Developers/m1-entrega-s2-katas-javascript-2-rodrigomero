@@ -56,7 +56,6 @@ console.assert(factorial(5) === 120, 'A função factorial não está funcionand
 
 function fibonacci(index){
     let num1 = 0, num2 =1, temp
-    let result = 0
     for(let i = 0;i<index;i++){
         temp = num1
         num1 = num2
